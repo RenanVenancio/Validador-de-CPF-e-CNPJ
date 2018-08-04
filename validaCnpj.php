@@ -40,7 +40,9 @@ function validaCnpj($entrada){
 
             $soma = 0;
 
-            for($cont; $cont <= $fimCont; $cont++){                                                                         $soma += $input[$cont] * $multiplos;  $multiplos--;
+            for($cont; $cont <= $fimCont; $cont++){     
+                
+                $soma += $input[$cont] * $multiplos;  $multiplos--;
 
             }  //Fechamento do for
             return $soma;   //Retornando a s
