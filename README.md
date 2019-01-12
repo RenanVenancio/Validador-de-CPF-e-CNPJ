@@ -4,10 +4,8 @@ Para  realizar a validação do  CPF ou CNPJ basta  chamar a função passando o
 
 EX:
 
-<?php
 
   var_dump (validaCnpj($SuaVariavel));   //Caso seja um cnpj 
   var_dump (validaCpf($SuaVariavel));   //Caso seja um cpf 
 
 
-?>
